@@ -34,7 +34,7 @@ openssl genrsa –out private_key.pem 2048
 Generar privada en formato PEM con contraseña
 Siempre que utilicemos la clave openssl nos pedirá la contraseña.
 ```sh
-sudo openssl genrsa -aes128 -out key.pem 2048
+openssl genrsa -aes128 -out key.pem 2048
 ```
 A continuación, generaremos la clave pública a partir de la clave privada que acabamos de generar:
 ```sh
